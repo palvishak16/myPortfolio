@@ -1,0 +1,528 @@
+
+body{
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 30px;
+}
+.logo{
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    color: goldenrod;
+    
+}
+li{
+    display: inline;
+     margin-right: 70px;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li a:hover{
+    border-bottom: 2px solid goldenrod;
+    color: goldenrod;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 15px;
+}
+.LineAndStar{
+    color: goldenrod;
+    display: flex;
+    align-items: center;
+}
+.LineAndStar img{
+    margin-left: 8px;
+}
+
+.hero{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    position: relative;
+    gap:150px;
+    
+}
+.HeroContent{
+   
+    width: fit-content;
+    margin-left: 0px;
+  
+
+   
+   
+}
+.HeroContentP{
+    color: #5f6e5c;
+    word-spacing: 2px ;
+    font-size: 18px;
+}
+.HeroContent h1,p,h3,h4{
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.HeroContent h1{
+    font-size: 115px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #566253;
+
+}
+.KHAN{
+    letter-spacing: 15px;
+    font-size: 120px;
+    
+}
+.HeroContent h4{
+
+  font-family: "Cedarville Cursive", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+    color: goldenrod;
+    font-size: 90px;
+}
+.HeroContent h3{
+    letter-spacing: 6px;
+    word-spacing: 12px;
+    color: goldenrod;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.btnHero{
+    width: 300px;
+    margin-top: 30px;
+    background-color: #778873;
+    padding: 20px 0px;
+    border: none;
+    color: antiquewhite;
+}
+.btnHero:hover{
+     background-color: beige;
+    color: #5f6e5c;
+    margin-top: 30px;
+    padding: 15px 0px;
+    width: 300px;
+    border: 2px solid  #778873;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.HeroCards{
+    display: flex;
+   /* align-items: center; */
+   justify-content: space-evenly;
+    width: 80%;
+    background-color: #778873;
+    position: relative;
+    bottom: 50px;
+    gap:30px;
+    padding: 25px;
+    margin-left: 200px;
+
+
+
+}
+.sectionTwoMainHeadings{
+    display: flex;
+   
+    align-items: center;
+    color: #778873;
+
+}
+.sectionTwoMainHeadings > p {
+    margin-left: 990px;
+}
+.sectionTwoMainHeadings img{
+    margin-left: 10px;
+}
+.hThree{
+    color: goldenrod;
+    letter-spacing: 2px;
+}
+.conContentHr{
+    border-right:2px solid wheat;
+    border-width: 1.5px;
+    align-items: center;
+
+
+}
+.b{
+    border-right: hidden;
+}
+.conContentAD{
+   
+    padding: 10px;
+    color: wheat;
+    margin:  0px 25px 0px 15px;
+  
+
+}
+.conContentAD h2{
+    font-size: 50px;
+    margin: 0px 0px 5px 0px;
+}
+
+
+ .conContentHr{
+    display: flex;
+ }
+ .Maincards{
+    padding: 50px 0px 50px 170px;
+ }
+
+ .cards{
+    display: flex;
+    gap: 10px;
+ }
+ .First-Card{
+    height: 300px;
+    width: 500px;
+ 
+    background-image: url(./images/webcard2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .Second-Card{
+    height: 300px;
+    width: 465px;
+  
+    background-image: url(./images/webcrd3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .Third-Card{
+    height: 300px;
+    width: 500px;
+    
+    background-image: url(./images/webcard1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .contentofCards{
+    margin: 60px 0px 20px 25px;
+    color: white;
+    
+ }
+ .contentofCards h2{
+    font-size: 25px;
+ }
+
+  .First-Card img{
+    margin-left: 10px;
+  }
+ 
+  .Second-Card img{
+        margin-left: 10px;
+  }
+  .Third-Card img{
+ margin-left: 10px;
+  }
+  .discriotion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 100px 100px 150px;
+  }
+
+  .discriotionFirst{
+    border-right: 1px solid goldenrod;
+    width: 40%;
+    height: 400px;
+
+  }
+    .discriotionFirst h2{
+        color: #414d3f;
+        margin-left: 20px;
+    }
+
+
+  .discriotionSecond{
+
+   display: flex;
+    width: auto;
+    height: 400px;
+    padding: 0px 0px 0px 0px;
+    margin-left: 60px;
+    
+ 
+    
+  }
+  .discriotionSecondContent{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    margin-bottom: 40px;
+    color:#414d3f;
+ 
+  }
+   .discriotionSecond p{
+    word-spacing: 5px;
+    font-size: 22px;
+ 
+
+   }
+    .discriotionSecondContent > h3{
+        font-size: 25px;
+    }
+     .PAL{
+        color: goldenrod;
+          font-family: "Cedarville Cursive", cursive;
+  font-weight: 150px;
+  margin-top: 80px;
+  
+
+    color: goldenrod;
+    font-size: 50px;
+     }
+    
+  
+  .iconsBtns{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: #778873;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .ICONS{
+    display: flex;
+    align-items: center;
+    gap:60px;
+    padding: 30px;
+  }
+  .LastSection{
+    /* width: 100%; */
+    height: 300px;
+    background-color: #778873;
+    display: flex;
+    align-items: center;
+    padding: 0px 100px 20px 100px;
+  
+  }
+  .LastSectionFirst{
+    border-right: 3px solid goldenrod;
+    height: 200px;
+    width: 50%;
+
+  
+  }
+  .LastSectionFirst p{
+    color: aliceblue;
+    font-size: 20px;
+    padding: 50px 100px 100px 100px;
+  }
+  .Commas{
+    font-size: 50px;
+    color: goldenrod;
+  }
+   .Commase{
+    font-size: 50px;
+    color: goldenrod;
+    margin-left: 450px;
+  }
+ 
+
+
+   .LastSectionSecond{
+    width: 50%;
+display: flex;
+align-items: center;
+margin-left: 60px;
+
+   }
+
+
+.i{
+
+    position: relative;
+    bottom:80px ;
+    left: 60px;
+}
+.LetsC{
+    
+    color: aliceblue;
+    font-size: 35px;
+}
+.LLL{
+     margin-left: 60px;
+     color: white;
+}
+.btnHeroc{
+    background-color: aliceblue;
+ 
+    margin-top: 20px;
+    padding: 15px 0px;
+    width: 300px;
+    border: none;
+}
+.btnHeroc a{
+    text-decoration: none;
+      color: #778873;;
+}
+.btnHeroc:hover{
+     width: 300px;
+    margin-top: 30px;
+    background-color: #778873;
+    padding: 20px 0px;
+    border: 1px solid antiquewhite;
+    color: wheat;
+  
+}
+.btnHeroc a:hover{
+    color: antiquewhite ;
+}
+.Seclast{
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 12px 0px 2px;
+ 
+  
+}
+.Seclastdiv{
+    border-right: 1px solid goldenrod;
+    padding: 2px 20px 2px 2px;
+    color: goldenrod;
+    font-size: 30px;
+  
+   
+}
+.Seclastdiv h1{
+    margin: 0px;
+    padding: 0px;
+}
+.SeclastdivP{
+    margin-left: 25px;
+    word-spacing: 4px;
+    color:#505a4d ;
+    line-height: 1.2;
+}
+ 
+  .iconsBtnss{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #778873;
+
+  
+    background-color: transparent;
+    color: #778873;
+    font-weight: bold;
+    font-size: 25px;
+    /* margin-bottom: 15px; */
+  }
+  .ICONSs{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    padding: 10px;
+ 
+  }
+
+  .LasttSection{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 40px 20px;
+
+  }
+  .Lsec{
+    background-color: #778873;
+    padding: 20px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: aliceblue;
+  }
+  .LsecP{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+  .MyStyle{
+    display: flex;
+    justify-content: center;
+  }
+
+  .MyStyleAll{
+    border-right: 1px solid rgb(230, 215, 177);
+   
+    padding: 80px;
+  }
+    .k{
+    border-right: hidden;
+   }
+  .firstMyStylebtn{
+    border-radius: 50%;
+border: none;
+    background-color: #EAE2D6;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left:  3px;
+    color: #414d3f;
+    font-weight: bolder;
+
+  }
+  .SecondMyStylebtn{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border:none;
+    background-color:#EAE2D6;
+    position: absolute;
+  }
+  .MyStyleContent{
+    margin-top: 90px;
+  
+    width: 100%;
+    text-align: center;
+    margin-left: 10px;
+    border-top: 1px solid rgb(230, 215, 177);
+  }
+  .MyStyleContent h2{
+    margin-bottom: 15px;
+    padding: 0px;
+  }
+  .MyStyleHeading{
+    padding: 50px;
+   
+
+  }
+
+  .DesignHeading{
+    color: #71886d;
+    margin-left: 70px;
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+  .line{
+    color: goldenrod;
+  }
+  /* .btnsDiv{
+    border-bottom:4px solid goldenrod ;
+  } */
+
+  .logo:hover{
+ 
+  
+
+  }
